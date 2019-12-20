@@ -1235,3 +1235,27 @@ position: absolute;
 top:40px;
 left:560px;
 }
+.home h4
+{
+    margin:auto;
+    font-size: 26;
+    font-weight: 400;
+    max-width: 25%;
+    height: 5%;
+    overflow: hidden;
+}
+.my-span
+{
+    position: relative;
+    top: 0;
+    left: 60%;
+    animation-name: move;
+    animation-duration: 1.5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes move
+{
+    0%{ left:60%; top:0}
+    100%{ left:0; top:0}
+}
